@@ -1,5 +1,4 @@
-let sales: number = 800_596;
-let course: string = "TypeScript Fundamentals";
-let isPublished: boolean = true;
-let level =200;
-let center;
+const enum size {small = 1, medium, large}
+
+let mySize: size = size.medium;
+console.log(`My size is: ${mySize}`);
